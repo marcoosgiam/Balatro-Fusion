@@ -301,6 +301,14 @@ return {
                     "when {C:attention}Boss Blind{} is defeated",
                     "{C:inactive}[currently at #1#/2 cards solds,{} {C:attention}#2#{} {C:inactive}retriggers]{}"
                 }
+            },
+            j_bfs_wandering_trader = {
+                name = "Wandering Trader",
+                text = {
+                    "Earn {C:money}#1#${} if poker hand contains a {C:attention}#2#",
+                    "Also fill open consumable slots with {C:tarot}Tarot Cards",
+                    "{C:inactive}poker hand changes at end of round",
+                }
             }
         },
         Spectral = {
